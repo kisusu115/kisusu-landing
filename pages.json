@@ -1,5 +1,15 @@
 {
   "baseDomain": "kisusu.dev",
   "rootRedirectSlug": "intro",
-  "pages": []
+  "pages": [
+    {
+      "slug": "intro",
+      "title": "임제형 | 소마 팀빌딩 랜딩 페이지",
+      "purpose": "소마 17기 팀빌딩 자기소개 및 팀원 모집",
+      "url": "https://intro.kisusu.dev",
+      "status": "draft",
+      "createdAt": "2026-04-25T08:31:24Z",
+      "updatedAt": "2026-04-25T08:31:24Z"
+    }
+  ]
 }

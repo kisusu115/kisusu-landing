@@ -1,5 +1,8 @@
 .DS_Store
 
+# claude code
+/.claude/
+
 # dependencies
 /node_modules
 /.pnp
