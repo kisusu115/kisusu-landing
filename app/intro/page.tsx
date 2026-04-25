@@ -7,14 +7,13 @@ export default function IntroPage() {
         <div className="container">
           <nav>
             <a className="brand" href="#top">
-              <span className="brand-badge">LJH</span>
+              <span className="brand-badge">YJH</span>
               <span>임제형 · SOMA Team Builder</span>
             </a>
             <div className="nav-links">
               <a href="#direction">방향</a>
               <a href="#strengths">강점</a>
               <a href="#teammate">선호 팀원</a>
-              <a href="#project">기획안</a>
               <a href="#contact">연락처</a>
             </div>
             <a className="nav-cta" href="mailto:kisusu115@gmail.com">
@@ -48,29 +47,15 @@ export default function IntroPage() {
                 >
                   오픈채팅으로 연락하기
                 </a>
-                <a className="btn btn-secondary" href="#project">
-                  기획안 살펴보기
+                <a className="btn btn-secondary" href="mailto:kisusu115@gmail.com">
+                  이메일 보내기
                 </a>
-              </div>
-              <div className="facts">
-                <div className="fact">
-                  <strong>우수자 인증 목표</strong>
-                  <span>소마 과정에 전념하며 밀도 있게 결과를 만들고 싶습니다.</span>
-                </div>
-                <div className="fact">
-                  <strong>서울 거주 · 오프라인 선호</strong>
-                  <span>대면 회의와 센터 상주 개발 모두 적극 환영합니다.</span>
-                </div>
-                <div className="fact">
-                  <strong>투명한 소통</strong>
-                  <span>회피하지 않고 상황과 관점을 빠르게 공유하는 협업을 좋아합니다.</span>
-                </div>
               </div>
             </section>
 
             <aside className="glass-card profile-card">
               <div>
-                <div className="avatar">임</div>
+                <div className="avatar">YJH</div>
               </div>
               <div>
                 <h2>임제형</h2>
@@ -109,6 +94,21 @@ export default function IntroPage() {
                 </div>
               </div>
             </aside>
+
+            <div className="facts">
+              <div className="fact">
+                <strong>우수자 인증 목표</strong>
+                <span>소마 과정에 전념하며 밀도 있게 결과를 만들고 싶습니다.</span>
+              </div>
+              <div className="fact">
+                <strong>서울 거주 · 오프라인 선호</strong>
+                <span>대면 회의와 센터 상주 개발 모두 적극 환영합니다.</span>
+              </div>
+              <div className="fact">
+                <strong>투명한 소통</strong>
+                <span>회피하지 않고 상황과 관점을 빠르게 공유하는 협업을 좋아합니다.</span>
+              </div>
+            </div>
           </div>
         </div>
       </header>
@@ -218,43 +218,6 @@ export default function IntroPage() {
                 </p>
               </article>
             </div>
-          </div>
-        </section>
-
-        <section id="project">
-          <div className="container">
-            <div className="section-head">
-              <span className="section-label">Project Idea</span>
-              <h3>현재 디벨롭 중인 기획안</h3>
-            </div>
-            <article className="panel project-box">
-              <div style={{ position: "relative", zIndex: 1 }}>
-                <div className="eyebrow">선택지 중 하나로 열어둔 아이디어</div>
-                <h4 className="project-title">
-                  코치와 실시간으로 함께하는 온라인 홈트레이닝 클래스 플랫폼
-                </h4>
-                <p>
-                  워크숍을 거치며 기획 자체가 핵심은 아니라는 점도 느꼈지만, 실제로 유저에게 가치를 줄 수 있는 하나의 방향으로 충분히 발전 가능성이 있다고 생각합니다.
-                  관심이 있으시다면 아래 링크를 통해 기획안을 먼저 살펴보시고, 떠오르는 아이디어가 있다면 함께 디벨롭해보면 좋겠습니다.
-                </p>
-                <div className="hero-actions" style={{ marginTop: 20 }}>
-                  <a
-                    className="btn btn-primary"
-                    href="https://www.notion.so/3333a42c14dd8078bb77f98d08c72d58?pvs=21"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    노션 기획안 보기
-                  </a>
-                  <a className="btn btn-secondary" href="mailto:kisusu115@gmail.com">
-                    이 기획 아니어도 연락하기
-                  </a>
-                </div>
-                <p style={{ marginTop: 18, color: "var(--muted)", fontSize: 15 }}>
-                  이 기획이 아니더라도 괜찮습니다. 함께 무언가를 제대로 만들어보고 싶은 분이라면 부담 없이 연락 주세요.
-                </p>
-              </div>
-            </article>
           </div>
         </section>
 
@@ -400,11 +363,6 @@ export default function IntroPage() {
               <a
                 className="btn btn-secondary"
                 href="mailto:kisusu115@gmail.com"
-                style={{
-                  background: "rgba(255,255,255,0.1)",
-                  color: "#fff",
-                  borderColor: "rgba(255,255,255,0.18)",
-                }}
               >
                 이메일
               </a>
