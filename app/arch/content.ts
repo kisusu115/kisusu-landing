@@ -42,7 +42,7 @@ export const content = {
       },
       {
         strong: "꽁꽁이 (kkongkkong)",
-        span: "외부 디스코드 창구 봇 · Hermes + gpt-5.4-mini",
+        span: "외부 디스코드 창구 봇 · Hermes + gpt-5.5",
       },
     ],
   },
@@ -66,7 +66,7 @@ export const content = {
       },
       {
         h: "4. 런타임 · 모델",
-        p: "내부 권한이 필요한 타타는 Claude Code(Max OAuth). 외부 응대용 꽁꽁이는 gpt-5.4-mini(OpenAI Codex OAuth). 키와 모델 자체가 분리되어 있습니다.",
+        p: "내부 권한이 필요한 타타는 Claude Code(Max OAuth). 외부 응대용 꽁꽁이는 gpt-5.5(OpenAI Codex OAuth). 키와 모델 자체가 분리되어 있습니다.",
       },
     ],
   },
