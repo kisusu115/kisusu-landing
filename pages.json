@@ -10,6 +10,15 @@
       "status": "draft",
       "createdAt": "2026-04-25T08:31:24Z",
       "updatedAt": "2026-04-25T08:31:24Z"
+    },
+    {
+      "slug": "arch",
+      "title": "arch",
+      "purpose": "",
+      "url": "https://arch.kisusu.dev",
+      "status": "draft",
+      "createdAt": "2026-04-30T01:52:56.061Z",
+      "updatedAt": "2026-04-30T01:52:56.061Z"
     }
   ]
 }
