@@ -19,15 +19,6 @@
       "status": "draft",
       "createdAt": "2026-04-30T01:52:56.061Z",
       "updatedAt": "2026-04-30T01:52:56.061Z"
-    },
-    {
-      "slug": "test",
-      "title": "test",
-      "purpose": "",
-      "url": "https://test.kisusu.dev",
-      "status": "draft",
-      "createdAt": "2026-04-30T03:24:33.180Z",
-      "updatedAt": "2026-04-30T03:24:33.180Z"
     }
   ]
 }
